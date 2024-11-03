@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+   }
+   body {
+     margin: 0;
+   }
+   #main {
+     display: flex;
+   }
+   .blu   #main > article {
+     flex: 1;
+     background-color: var(--blue-100);
+     padding: 5vh 10vw;
+     font-family: "Outfit", sans-serif;
+   }
+
+.blu   #main > aside {
+     border-left: 2px solid var(--blue-400);
+     flex: 0 0 15vw;
+     background: var(--blue-100);
+     padding-top: 8vh;
+     text-align: center;
+     color: var(--blue-500);
+     font-family: "Outfit", sans-serif;
+   }
+   .blu   #main > nav {
+     flex: 0 0 15vw;
+     background: var(--blue-100);
+     order: -1;
+     border-right: 2px solid var(--blue-400);
+   }
+   .blu   header{
+    text-align: center;
+     background: var(--blue-100);
+     height: 30vh;
+     font-size: 5em;
+     color: var(--blue-500);
+     font-family: "Outfit", sans-serif;
+     border-bottom: 3px solid var(--blue-500);
+   }
+   .blu   footer{
+    background: var(--blue-100);
+    height: 7vh;
+    border-top: 2px solid var(--blue-400);
+    text-align: right;
+    padding-right: 3vw;
+    font-family: "Outfit", sans-serif;
+    color: var(--blue-500);
+  }
+
+.blu .navdiv{
+    text-align: center;
+    border-bottom: 1px solid var(--blue-400);
+    position: sticky;
+    top: 10vh;
+    padding: 15vh 0;
+}
+
+.blu .navdiv a{
+    text-decoration: none;
+    color: var(--blue-500);
+    font-size: 2em;
+}
+
+.blu article{
+    font-family: "Outfit", sans-serif;
+    color: var(--blue-500);
+    padding-top: 20vh;
+}
+
+.blu input[type=submit] {
+  background-color: var(--blue-300);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.blu input[type=submit]:hover {
+  background-color: var(--blue-200);
+}

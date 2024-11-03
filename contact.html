@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="My little webapp project" />
+  <meta charset="utf-8">
+  <title>The Hanna Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Alicja Radzik 419525">
+  <link rel="stylesheet" href="mainpg.css">
+  <link rel="stylesheet" href="mainpg-pink.css">
+  <link rel="stylesheet" href="colors.css">
+  <link rel="icon" type="image" href="flowr.png">
+  <script src="various.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+  </style>
+</head>
+
+<body class="pik" id="bod">
+  
+
+    <header>The Hanna Website</header>
+    <div id="main">
+      <article>
+        <form>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="youremail@domain.sth" title="Enter valid email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="gettoknow">Get to know me</option>
+            <option value="commission">Commissions</option>
+            <option value="fanclub">Want to join the fanclub</option>
+          </select>
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Send">
+        </form>
+      </article>
+      <nav>
+        <div class="navdiv">
+            <a href="mainpage.html">Main Page</a><br/><br/><br/>
+            <a href="gallery.html">Gallery</a><br/><br/><br/>
+            <a href="contact.html">Contact</a>
+        </div>
+
+      </nav>
+      <aside id="weather">Aside</aside>
+    </div>
+    <footer>Alicja Radzik 2024</footer>
+
+
+</body>
+</html>
